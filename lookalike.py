@@ -112,7 +112,7 @@ def spacy_tokenizer(sentence):
     sentence = " ".join(mytokens)
     return sentence
 
-model = SentenceTransformer('all-mpnet-base-v2')
+# model = SentenceTransformer('all-mpnet-base-v2')
 
 
 # master_transformer=master[['Concatenated']]
