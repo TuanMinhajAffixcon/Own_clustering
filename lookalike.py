@@ -123,7 +123,7 @@ def spacy_tokenizer(sentence):
 # master_transformer['embeddings'] = master_transformer['tokenize'].apply(lambda x: model.encode(x).tolist())
 # joblib.dump(master_transformer,'master_transformer')
 # st.write(master_transformer)
-master_transformer=joblib.load('master_transformer')
+# master_transformer=joblib.load('master_transformer')
 # st.write(len(master_transformer))
 
 # embeddings_array = np.array([np.array(embedding) for embedding in master_transformer['embeddings']])
